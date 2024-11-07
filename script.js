@@ -12,7 +12,7 @@ function checkPrime(num){
 
 //implementing DOM element for html file
 
-document.getElementById("sub-id"),addEventListener("click", function(){
+document.getElementById("sub-id").addEventListener("click", function(){
     let num = document.getElementById("input-id").value;
     let result = checkPrime(num);
 
